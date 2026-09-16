@@ -171,19 +171,56 @@ let count:number=10;
     // }
 
 
-    let aadharnumber:boolean=false;
-    let pancardnumber:boolean=false;
-    let voteridnumber:boolean=false; 
-    let drivinglicensenumber:boolean=false;
-    let voterAge:number=18;
-    let voterAge2:number=17;
+    // let aadharnumber:boolean=false;
+    // let pancardnumber:boolean=false;
+    // let voteridnumber:boolean=false; 
+    // let drivinglicensenumber:boolean=false;
+    // let voterAge:number=18;
+    // let voterAge2:number=17;
 
-    if(aadharnumber && pancardnumber && voteridnumber && drivinglicensenumber && voterAge >= 18) {
-        console.log("All documents are valid and voter is eligible.");
-    // } else if(aadharnumber || pancardnumber || voteridnumber || drivinglicensenumber && voterAge >= 18) {
+    // if(aadharnumber && pancardnumber && voteridnumber && drivinglicensenumber && voterAge >= 18) {
+    //     console.log("All documents are valid and voter is eligible.");
+    // // } else if(aadharnumber || pancardnumber || voteridnumber || drivinglicensenumber && voterAge >= 18) {
+    // //     console.log("Some documents are valid and voter is eligible.");
+    // } else if(aadharnumber || pancardnumber || voteridnumber || drivinglicensenumber && (voterAge2 >= 18)) {
     //     console.log("Some documents are valid and voter is eligible.");
-    } else if(aadharnumber || pancardnumber || voteridnumber || drivinglicensenumber && (voterAge2 >= 18)) {
-        console.log("Some documents are valid and voter is eligible.");
-    } else {
-        console.log("Some documents are invalid or voter is not eligible.");
+    // } else {
+    //     console.log("Some documents are invalid or voter is not eligible.");
+    // }
+
+
+
+    // 
+    
+
+    let orderAmount:number=150;
+    
+
+    if(orderAmount>=1500){
+        console.log("You are eligible for Free Delivery!");
     }
+    else if(orderAmount>=1000 && orderAmount<=1499){
+        console.log("Delivery charges Applied- 20/-Rs ");
+           }
+           else if(orderAmount>500 && orderAmount<=999){
+            console.log("Delivery charges Applied- 40/-Rs!");
+           }
+           else if(orderAmount>=200 && orderAmount<=499){
+            console.log("Delivery charges Applied- 60/-Rs!");
+           }
+           else if(orderAmount<=200){git 
+            console.log("Delivery charges Applied- 80/-Rs!");
+           }
+           else {
+            console.log("Invalid order amount!");
+           }
+
+
+        
+        
+    
+
+
+
+
+
