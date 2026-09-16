@@ -208,7 +208,7 @@ let count:number=10;
            else if(orderAmount>=200 && orderAmount<=499){
             console.log("Delivery charges Applied- 60/-Rs!");
            }
-           else if(orderAmount<=200){
+           else if(orderAmount<=200){git 
             console.log("Delivery charges Applied- 80/-Rs!");
            }
            else {
