@@ -193,34 +193,41 @@ let count:number=10;
     // 
     
 
-    let orderAmount:number=150;
+    // let orderAmount:number=150;
     
 
-    if(orderAmount>=1500){
-        console.log("You are eligible for Free Delivery!");
-    }
-    else if(orderAmount>=1000 && orderAmount<=1499){
-        console.log("Delivery charges Applied- 20/-Rs ");
-           }
-           else if(orderAmount>500 && orderAmount<=999){
-            console.log("Delivery charges Applied- 40/-Rs!");
-           }
-           else if(orderAmount>=200 && orderAmount<=499){
-            console.log("Delivery charges Applied- 60/-Rs!");
-           }
-           else if(orderAmount<=200){git 
-            console.log("Delivery charges Applied- 80/-Rs!");
-           }
-           else {
-            console.log("Invalid order amount!");
-           }
+    // if(orderAmount>=1500){
+    //     console.log("You are eligible for Free Delivery!");
+    // }
+    // else if(orderAmount>=1000 && orderAmount<=1499){
+    //     console.log("Delivery charges Applied- 20/-Rs ");
+    //        }
+    //        else if(orderAmount>500 && orderAmount<=999){
+    //         console.log("Delivery charges Applied- 40/-Rs!");
+    //        }
+    //        else if(orderAmount>=200 && orderAmount<=499){
+    //         console.log("Delivery charges Applied- 60/-Rs!");
+    //        }
+    //        else if(orderAmount<=200){git 
+    //         console.log("Delivery charges Applied- 80/-Rs!");
+    //        }
+    //        else {
+    //         console.log("Invalid order amount!");
+    //        }
+
+
+ let name:string="Dnyanesh";
+ let age:number=27;
+ let city:string="Satara";  
+ let isMarried:boolean=false;
+
+console.log(`My name is ${name}, I am ${age} years old, I live in ${city}, and I am ${isMarried ? "married" : "not married"}.`);
 
 
         
-        
     
 
 
-
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 
 
